@@ -1,0 +1,41 @@
+  .card{
+    width: 300px;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 20px ;
+    background-color: darkblue;
+    margin-top: 10px;
+    border: 2px solid white;
+} 
+
+.image img{
+    width: 300px;
+}
+
+.image{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    right: 3px;
+    top:160px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    border: none;
+}
+.para1{
+    font-weight: bolder;
+    color: white;
+    
+}
+
+.para2{
+    color: aliceblue;
+
+}
